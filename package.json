@@ -1,0 +1,23 @@
+{
+  "name": "wk5_gtw",
+  "version": "1.0.0",
+  "description": "Using the circuit breaker and Api GTW",
+  "main": "index.js",
+  "scripts": {
+    "test": "none",
+    "start": "concurrently \"node ./apigateway/index.js\" \"node ./postService/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0"
+  }
+}
